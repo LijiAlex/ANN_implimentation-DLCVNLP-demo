@@ -1,0 +1,59 @@
+[2021-10-15 06:57:11,719: INFO: training] ************* Begin Training *************
+[2021-10-15 06:57:13,703: INFO: data_mgmt] MNIST data download
+[2021-10-15 06:57:14,098: INFO: data_mgmt] Create validation data, training data and test data
+[2021-10-15 06:57:14,307: INFO: model] Model created
+[2021-10-15 06:57:28,284: INFO: training] ************* End Training *************
+
+
+
+[2021-10-15 07:02:45,722: INFO: training] ************* Begin Training *************
+[2021-10-15 07:02:47,734: INFO: data_mgmt] MNIST data download
+[2021-10-15 07:02:48,159: INFO: data_mgmt] Create validation data, training data and test data
+[2021-10-15 07:02:48,361: INFO: model] Model created
+[2021-10-15 07:02:48,362: INFO: training] Start training
+[2021-10-15 07:06:12,087: INFO: training] ************* Begin Training *************
+[2021-10-15 07:06:14,095: INFO: data_mgmt] MNIST data download
+[2021-10-15 07:06:14,499: INFO: data_mgmt] Create validation data, training data and test data
+[2021-10-15 07:06:14,703: INFO: model] Model created
+[2021-10-15 07:06:14,703: INFO: training] Start training
+[2021-10-15 07:06:25,026: INFO: training] {'loss': [0.6044672727584839], 'accuracy': [0.8437818288803101], 'val_loss': [0.3115694224834442], 'val_accuracy': [0.9157999753952026]}
+[2021-10-15 07:06:25,026: INFO: training] Training successful
+[2021-10-15 07:06:26,724: INFO: training] ************* End Training *************
+
+
+
+[2021-10-15 07:12:07,356: INFO: training] ************* Begin Training *************
+[2021-10-15 07:12:09,406: INFO: data_mgmt] MNIST data download
+[2021-10-15 07:12:09,815: INFO: data_mgmt] Create validation data, training data and test data
+[2021-10-15 07:12:10,157: INFO: model] Model created
+[2021-10-15 07:12:10,158: INFO: training] Start training
+[2021-10-15 07:12:20,925: INFO: training] {'loss': [0.5891166925430298], 'accuracy': [0.8517454266548157], 'val_loss': [0.30413416028022766], 'val_accuracy': [0.9172000288963318]}
+[2021-10-15 07:12:20,926: INFO: training] Training successful
+[2021-10-15 07:12:22,010: INFO: training] ************* End Training *************
+
+
+
+[2021-10-15 07:14:46,665: INFO: training] ************* Begin Training *************
+[2021-10-15 07:14:49,178: INFO: data_mgmt] MNIST data download
+[2021-10-15 07:14:49,617: INFO: data_mgmt] Create validation data, training data and test data
+[2021-10-15 07:14:49,806: INFO: model] Model created
+[2021-10-15 07:14:49,806: INFO: training] Start training
+[2021-10-15 07:15:01,468: INFO: training] {'loss': [0.6201127767562866], 'accuracy': [0.8338000178337097], 'val_loss': [0.31231024861335754], 'val_accuracy': [0.9128000140190125]}
+[2021-10-15 07:15:01,469: INFO: training] Training successful
+[2021-10-15 07:15:02,356: INFO: training] ************* End Training *************
+
+
+
+[2021-10-15 07:17:45,498: INFO: training] ************* Begin Training *************
+[2021-10-15 07:17:47,491: INFO: data_mgmt] MNIST data download
+[2021-10-15 07:17:47,893: INFO: data_mgmt] Create validation data, training data and test data
+[2021-10-15 07:17:48,088: INFO: model] Model created
+[2021-10-15 07:17:48,088: INFO: training] Start training
+[2021-10-15 07:18:04,295: INFO: training] {'loss': [0.5999396443367004], 'accuracy': [0.8428909182548523], 'val_loss': [0.2990502119064331], 'val_accuracy': [0.91839998960495]}
+[2021-10-15 07:18:04,295: INFO: training] Training successful
+[2021-10-15 07:18:04,344: INFO: model] Model saved
+[2021-10-15 07:18:06,338: INFO: common] Plot saved
+[2021-10-15 07:18:06,339: INFO: training] ************* End Training *************
+
+
+
