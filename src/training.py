@@ -29,7 +29,7 @@ def training(config_path):
 
         epochs = config["params"]["epochs"]
         validation = (X_val, y_val)
-        logger.info("Start training")
+        logger.info(f"Start training, Epochs:{epochs}")
         history = model.fit(X_train, y_train, epochs=epochs, validation_data=validation)
         logger.info(history.history)
         logger.info("Training successful")

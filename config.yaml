@@ -1,14 +1,11 @@
 params:
-  epochs: 1
+  epochs: 3
   batch_size: 32 
   no_classes: 10
   loss_functions: sparse_categorical_crossentropy
   metrics: accuracy
   optimizer: SGD
   validation_datasize: 5000
-  
-
-
 
 artifacts:
   artifacts_dir: artifacts
