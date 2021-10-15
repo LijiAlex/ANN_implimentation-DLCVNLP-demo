@@ -3,7 +3,7 @@ import os.path
 from utils.common import get_unique_filename
 
 
-def create_model(loss_function, optimizer, metrics):
+def create_model(loss_function, optimizer, metrics, logger):
     layers = [
           tf.keras.layers.Flatten(input_shape=[28, 28], name="inputLayer"),
           tf.keras.layers.Dense(300, activation="relu", name="hiddenLayer1"),
@@ -13,10 +13,12 @@ def create_model(loss_function, optimizer, metrics):
     model_clf = tf.keras.models.Sequential(layers)
     model_clf.summary()
     model_clf.compile(loss=loss_function, optimizer=optimizer, metrics=metrics)
+    logger.info("Model created")
     return model_clf  # untrained model
 
 
-def save_model(model, model_name, model_dir):
+def save_model(model, model_name, model_dir, logger):
     unique_filename = get_unique_filename(model_name)
     path_to_model = os.path.join(model_dir, unique_filename)
     model.save(path_to_model)
+    logger.info("Model saved")

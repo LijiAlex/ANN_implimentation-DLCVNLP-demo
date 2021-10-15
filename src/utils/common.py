@@ -16,9 +16,10 @@ def read_config(config_path):
     return content
 
 
-def save_plot(history, plot_name, plot_dir):
+def save_plot(history, plot_name, plot_dir, logger):
     unique_filename = get_unique_filename(plot_name)
     path_to_model = os.path.join(plot_dir, unique_filename)
     pd.DataFrame(history.history).plot(figsize=(10, 7))
     plt.grid(True)
     plt.savefig(path_to_model)
+    logger.info("Plot saved")
