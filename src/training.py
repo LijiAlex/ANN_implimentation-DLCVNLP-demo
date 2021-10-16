@@ -1,7 +1,7 @@
 import os
-from utils.common import read_config, save_plot
-from utils.data_mgmt import get_data
-from utils.model import create_model, save_model
+from src.utils.common import read_config, save_plot
+from src.utils.data_mgmt import get_data
+from src.utils.model import create_model, save_model
 import argparse
 import logging
 

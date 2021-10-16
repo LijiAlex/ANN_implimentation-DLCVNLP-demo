@@ -70,3 +70,16 @@
 
 
 
+[2021-10-17 05:27:39,551: INFO: training] ************* Begin Training *************
+[2021-10-17 05:27:43,027: INFO: data_mgmt] MNIST data download
+[2021-10-17 05:27:43,617: INFO: data_mgmt] Create validation data, training data and test data
+[2021-10-17 05:27:44,027: INFO: model] Model created
+[2021-10-17 05:27:44,028: INFO: training] Start training, Epochs:3
+[2021-10-17 05:28:04,940: INFO: training] {'loss': [0.6042090654373169, 0.29157140851020813, 0.2384209930896759], 'accuracy': [0.8415818214416504, 0.9160909056663513, 0.9319454431533813], 'val_loss': [0.30756890773773193, 0.24421316385269165, 0.20322056114673615], 'val_accuracy': [0.9192000031471252, 0.9332000017166138, 0.9412000179290771]}
+[2021-10-17 05:28:04,941: INFO: training] Training successful
+[2021-10-17 05:28:04,972: INFO: model] Model saved
+[2021-10-17 05:28:06,632: INFO: common] Plot saved
+[2021-10-17 05:28:06,632: INFO: training] ************* End Training *************
+
+
+
