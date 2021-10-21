@@ -1,13 +1,14 @@
 import yaml
-import time
 import matplotlib.pyplot as plt
 import pandas as pd
 import os
+import time
 
 
-def get_unique_filename(filename):
+def get_unique_filename(filename, path_dir):
     unique_filename = time.strftime(f"%Y-%m-%d_%H%S%M_{filename}")
-    return unique_filename
+    path = os.path.join(path_dir, unique_filename)
+    return path
 
 
 def read_config(config_path):
@@ -17,8 +18,7 @@ def read_config(config_path):
 
 
 def save_plot(history, plot_name, plot_dir, logger):
-    unique_filename = get_unique_filename(plot_name)
-    path_to_model = os.path.join(plot_dir, unique_filename)
+    path_to_model = get_unique_filename(plot_name, plot_dir)
     pd.DataFrame(history.history).plot(figsize=(10, 7))
     plt.grid(True)
     plt.savefig(path_to_model)

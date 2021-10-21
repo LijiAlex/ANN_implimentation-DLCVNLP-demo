@@ -18,4 +18,4 @@ artifacts:
 logs:
   logs_dir: logs
   general_logs: general_logs.log
-  tensorboard_logs: tensorboard_logs.log
+  tensorboard_logs: tensorboard_logs

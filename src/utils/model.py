@@ -1,5 +1,4 @@
 import tensorflow as tf
-import os.path
 from src.utils.common import get_unique_filename
 
 
@@ -18,7 +17,6 @@ def create_model(loss_function, optimizer, metrics, logger):
 
 
 def save_model(model, model_name, model_dir, logger):
-    unique_filename = get_unique_filename(model_name)
-    path_to_model = os.path.join(model_dir, unique_filename)
+    path_to_model = get_unique_filename(model_name, path_dir=model_dir)
     model.save(path_to_model)
     logger.info("Model saved")
