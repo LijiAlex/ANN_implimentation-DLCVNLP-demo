@@ -149,3 +149,17 @@ TypeError: get_unique_filename() missing 1 required positional argument: 'path_d
 
 
 
+[2021-10-21 07:22:19,288: INFO: training] ************* Begin Training *************
+[2021-10-21 07:22:21,303: INFO: data_mgmt] MNIST data download
+[2021-10-21 07:22:21,740: INFO: data_mgmt] Create validation data, training data and test data
+[2021-10-21 07:22:21,944: INFO: model] Model created
+[2021-10-21 07:22:21,944: INFO: training] Start training, Epochs:3
+[2021-10-21 07:22:55,982: INFO: training] {'loss': [0.6119547486305237, 0.2881646752357483, 0.23481385409832], 'accuracy': [0.8418181538581848, 0.9176727533340454, 0.9333454370498657], 'val_loss': [0.30890965461730957, 0.2377411127090454, 0.20417256653308868], 'val_accuracy': [0.9160000085830688, 0.9318000078201294, 0.9404000043869019]}
+[2021-10-21 07:22:55,982: INFO: training] Training successful
+[2021-10-21 07:22:57,560: INFO: training] Evaluation successful
+[2021-10-21 07:22:57,607: INFO: model] Model saved
+[2021-10-21 07:22:58,750: INFO: common] Plot saved
+[2021-10-21 07:22:58,750: INFO: training] ************* End Training *************
+
+
+

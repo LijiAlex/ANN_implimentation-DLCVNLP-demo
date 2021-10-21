@@ -8,7 +8,7 @@ import tensorflow as tf
 import numpy as np
 
 
-def training(config_path):
+def training(config_path="config.yaml"):
     logger = logging.getLogger()
     try:
         config = read_config(config_path)
